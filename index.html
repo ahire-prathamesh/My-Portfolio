@@ -3,6 +3,8 @@
   <head>
     <title>Prathamesh Ahire Portfolio</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -281,199 +283,169 @@
 
 
 
-    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
-    	<div class="container">
-			<div class="row">
-				<div class="row d-flex align-items-stretch">
-				<!-- <div class="row d-flex"> -->
-					<div class="col-md-6 col-lg-5 d-flex">
-						<div class="img-about img d-flex align-items-stretch">
-							<div class="overlay">
-								<div class="row">
-									<div class="col-sm-6 col-md-5">
-									  <div class="about-img">
-										<img src="images/about-me.png" class="img-fluid rounded b-shadow-a" alt="">
-									  </div>
-									</div>
-									<!-- Details next to profile image -->
-									<div class="col-sm-6 col-md-7">
-									  <div class="about-info">
-										<p><span class="title-s"></span> <span><b>Prathamesh Tatyasaheb Ahire</b></span></p>
-										<p><span class="title-s"><b>Bachelor of IT 2024</b></span></p>
-										<p><span class="title-s"><b>Looking for Opportunity</b> </span> <span></span></p>
-										<p><span class="title-s">Residing in- </span> <span><b>Pune, MH, India</b></span></p>
-									  </div>
-									</div>
-								  </div>
+     <!-- OPTIONAL: RESPONSIVE CSS FOR TYPING TEXT -->
+  <style>
+    #typing-animation {
+      font-size: 24px;
+      font-weight: 600;
+      color: white;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+    }
 
-								<div class="skill-mf">
-									<p class="title-s"><b>Skills</b></p>
-									<span>SQL</span> <span class="pull-right">80%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="95" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>PYTHON</span> <span class="pull-right">75%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Data Visualization</span> <span class="pull-right">85%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
+    @media (max-width: 768px) {
+      #typing-animation {
+        font-size: 18px;
+        text-align: center;
+      }
 
-									<span>Excel</span> <span class="pull-right">80%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Machine Learning</span> <span class="pull-right">60%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>OOP</span> <span class="pull-right">90%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>DBMS</span> <span class="pull-right">80%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Soft Skills</span> <span class="pull-right">99.9%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 99.9%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
+      .slider-item .text {
+        padding: 20px 0;
+        text-align: center;
+      }
 
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
-						<div class="row justify-content-start pb-3">
-							<div class="col-md-12 heading-section ftco-animate">
-								
-								<h1 class="big">About</h1>
-								<h2 class="mb-4">About Me</h2>
-							
-								
-								<p><b>👋 Hey there, I'm Prathamesh!</b><br>
-								<b>🎓 IT Graduate (2024) </b>|<b> 💻 Aspiring Developer & Analyst </b>|<b> 🤖 Tech Explorer</b></p>
+      .img.js-fullheight {
+        min-height: 300px !important;
+      }
+    }
+  </style>
+<section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+  <div class="container">
+    <div class="row align-items-stretch">
+      <!-- Profile Image and Skills -->
+      <div class="col-md-6 col-lg-5 d-flex mb-5 mb-md-0">
+        <div class="img-about img d-flex align-items-stretch w-100">
+          <div class="overlay p-3 p-md-4 w-100">
+            <div class="row">
+              <div class="col-sm-6 col-md-5">
+                <div class="about-img">
+                  <img src="images/about-me.png" class="img-fluid rounded b-shadow-a" alt="">
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-7">
+                <div class="about-info">
+                  <p><span class="title-s"></span> <span><b>Prathamesh Tatyasaheb Ahire</b></span></p>
+                  <p><span class="title-s"><b>Bachelor of IT 2024</b></span></p>
+                  <p><span class="title-s"><b>Looking for Opportunity</b></span></p>
+                  <p><span class="title-s">Residing in- </span> <span><b>Pune, MH, India</b></span></p>
+                </div>
+              </div>
+            </div>
 
-								<p>Welcome to my little corner of the internet! I'm a passionate techie who loves solving problems, building cool stuff, and always learning something new.<br>
-								💡 I believe in learning by doing, and that’s exactly how I’ve shaped my journey so far — from college projects to real-world internships!
+            <!-- Skill Progress Bars -->
+            <div class="skill-mf mt-4">
+              <p class="title-s"><b>Skills</b></p>
 
-								</p>
-								<p><b>💼 What I Do: </b><br>
-								👨‍💻 Write code in Python <br>
+              <span>SQL</span> <span class="pull-right">80%</span>
+              <div class="progress"><div class="progress-bar" style="width: 80%;"></div></div>
 
-								🧠 Analyze data using SQL, Excel, Power BI <br>
+              <span>PYTHON</span> <span class="pull-right">75%</span>
+              <div class="progress"><div class="progress-bar" style="width: 75%;"></div></div>
 
-								🛠 Build projects, Create Dashboards <br>
+              <span>Data Visualization</span> <span class="pull-right">85%</span>
+              <div class="progress"><div class="progress-bar" style="width: 85%;"></div></div>
 
-								🔄 Collaborate with teams and love sharing ideas! <br>
+              <span>Excel</span> <span class="pull-right">80%</span>
+              <div class="progress"><div class="progress-bar" style="width: 80%;"></div></div>
 
-								</p>
+              <span>Machine Learning</span> <span class="pull-right">60%</span>
+              <div class="progress"><div class="progress-bar" style="width: 60%;"></div></div>
 
-								<p><b>🧰 My Toolbox: </b><br>
-								💻 Languages: Python, SQL <br>
+              <span>OOP</span> <span class="pull-right">90%</span>
+              <div class="progress"><div class="progress-bar" style="width: 90%;"></div></div>
 
-								🧮 Tools: Power BI, MySQL, MSSQL, Git/Github, Excel <br>
+              <span>DBMS</span> <span class="pull-right">80%</span>
+              <div class="progress"><div class="progress-bar" style="width: 80%;"></div></div>
 
-								🌐 Core Concepts: DBMS, OOP, SDLC  <br>
-								</p>
+              <span>Soft Skills</span> <span class="pull-right">99.9%</span>
+              <div class="progress"><div class="progress-bar" style="width: 99.9%;"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-								<p>
-									<b>🌟 Fun Facts: </b><br>
-								🚀 I’m always curious about "how things work" <br>
+      <!-- About Me Content -->
+      <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+        <div class="heading-section ftco-animate mb-4">
+          <h1 class="big">About</h1>
+          <h2 class="mb-4">About Me</h2>
 
-								🎯 Focused on becoming excellent Techie <br>
+          <p><b>👋 Hey there, I'm Prathamesh!</b><br>
+          <b>🎓 IT Graduate (2024)</b> | <b>💻 Aspiring Developer & Analyst</b> | <b>🤖 Tech Explorer</b></p>
 
-								✈️ Love to travel, explore places & new tech <br>
+          <p>Welcome to my little corner of the internet! I'm a passionate techie who loves solving problems, building cool stuff, and always learning something new.<br>
+          💡 I believe in learning by doing, and that’s exactly how I’ve shaped my journey so far — from college projects to real-world internships!</p>
 
-								📚 A fan of deep talks and detective stories! <br>
+          <p><b>💼 What I Do:</b><br>
+          👨‍💻 Write code in Python<br>
+          🧠 Analyze data using SQL, Excel, Power BI<br>
+          🛠 Build projects, Create Dashboards<br>
+          🔄 Collaborate with teams and love sharing ideas!</p>
 
-								
-                <div class="counter-wrap ftco-animate d-flex mt-md-3">
-							  <div class="text">
-							    <p class="mb-4 d-flex align-items-center" style="gap: 5px; flex-wrap: nowrap;">
-							      <span class="number" data-number="5">0</span><span>+</span>
-							      <span>Projects completed</span>
-							    </p>
-							 
- 							 </div>
-							</div>
+          <p><b>🧰 My Toolbox:</b><br>
+          💻 Languages: Python, SQL<br>
+          🧮 Tools: Power BI, MySQL, MSSQL, Git/Github, Excel<br>
+          🌐 Core Concepts: DBMS, OOP, SDLC</p>
 
+          <p><b>🌟 Fun Facts:</b><br>
+          🚀 I’m always curious about "how things work"<br>
+          🎯 Focused on becoming excellent Techie<br>
+          ✈️ Love to travel, explore places & new tech<br>
+          📚 A fan of deep talks and detective stories!</p>
 
-								</p>
+          <div class="counter-wrap ftco-animate d-flex mt-md-3">
+            <div class="text">
+              <p class="mb-4 d-flex align-items-center" style="gap: 5px; flex-wrap: nowrap;">
+                <span class="number" data-number="5">0</span><span>+</span>
+                <span>Projects completed</span>
+              </p>
+            </div>
+          </div>
 
-
-
-							</div>
-						</div>
-
-							
-
-					</div>
-				</div>
-			</div>
-		</div>
-    </section>
-
-
-
-
-
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- Projects Section -->
 <section class="ftco-section" id="project-section">
   <div class="container">
-    <div class="row justify-content-center mb-5 pb-5">
-      <div class="col-md-7 heading-section text-center ftco-animate">
+    <div class="row justify-content-center mb-5 pb-4">
+      <div class="col-md-10 text-center heading-section ftco-animate">
         <h1 class="big big-2">Projects</h1>
         <h2 class="mb-4">Projects</h2>
-        <div class="underline"></div>
+        <div class="underline mx-auto"></div>
       </div>
     </div>
 
-    <div class="row d-flex">
-      <div class="col-md-4 d-flex ftco-animate">
-        <div class="blog-entry justify-content-end">
+    <div class="row">
+      <!-- Project 1 -->
+      <div class="col-md-6 col-lg-4 d-flex mb-4 ftco-animate">
+        <div class="blog-entry w-100">
           <a href="https://github.com/ahire-prathamesh/Employee-Retention-Analysis/blob/main/Employee_retention_SS.png" class="block-20 zoom-effect" style="background-image: url('images/ERA1.png');"></a>
-          <div class="text mt-3 float-right d-block">
+          <div class="text mt-3">
             <h3 class="heading"><a href="https://github.com/ahire-prathamesh/Employee-Retention-Analysis"><b>📈 Employee Retention Analysis</b></a></h3>
             <p>Analyzed employee retention trends to identify key factors behind attrition using SQL, Excel, Power BI.</p>
           </div>
         </div>
       </div>
 
-      <div class="col-md-4 d-flex ftco-animate">
-        <div class="blog-entry justify-content-end">
-          <a href="https://github.com/ahire-prathamesh/Bank-Loan-Report-Dashboard/blob/main/README.md" id="image-slider" class="block-20 zoom-effect" style="background-image: url('images/BLR1.png');"></a>
-          <div class="text mt-3 float-right d-block">
+      <!-- Project 2 -->
+      <div class="col-md-6 col-lg-4 d-flex mb-4 ftco-animate">
+        <div class="blog-entry w-100">
+          <a href="https://github.com/ahire-prathamesh/Bank-Loan-Report-Dashboard/blob/main/README.md" class="block-20 zoom-effect" style="background-image: url('images/BLR1.png');"></a>
+          <div class="text mt-3">
             <h3 class="heading"><a href="https://github.com/ahire-prathamesh/Bank-Loan-Report-Dashboard"><b>📊 Bank Loan Report</b></a></h3>
             <p>Developed 3 interactive dashboards to analyze and visualize bank loan data using MSSQL, Power BI.</p>
           </div>
         </div>
       </div>
 
-      <div class="col-md-4 d-flex ftco-animate">
-        <div class="blog-entry">
+      <!-- Project 3 -->
+      <div class="col-md-6 col-lg-4 d-flex mb-4 ftco-animate">
+        <div class="blog-entry w-100">
           <a href="https://cyberbullying-patrol.onrender.com/" class="block-20 zoom-effect" style="background-image: url('images/Cyberbullying_Patrol_SS.png');"></a>
-          <div class="text mt-3 float-right d-block">
-            <h3 class="heading"><a href="https://github.com/ahire-prathamesh/Cyberbullying-Patrol"><b>🛡️ Cyberbullying Patrol </b></a></h3>
+          <div class="text mt-3">
+            <h3 class="heading"><a href="https://github.com/ahire-prathamesh/Cyberbullying-Patrol"><b>🛡️ Cyberbullying Patrol</b></a></h3>
             <p>Created a smart website using Python & NLP that detects cyberbullying text with 97% accuracy.</p>
           </div>
         </div>
@@ -485,40 +457,38 @@
 <!-- Experience Section -->
 <section class="ftco-section" id="experience-section">
   <div class="container">
-    <div class="row justify-content-center mb-5 pb-5">
-      <div class="col-md-7 heading-section text-center ftco-animate">
+    <div class="row justify-content-center mb-5 pb-4">
+      <div class="col-md-10 text-center heading-section ftco-animate">
         <h1 class="big big-2">Experience</h1>
         <h2 class="mb-4">Experience</h2>
-        <div class="underline"></div>
+        <div class="underline mx-auto"></div>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-md-6">
-        <div class="resume-wrap ftco-animate">
+      <!-- Experience 1 -->
+      <div class="col-md-6 mb-4">
+        <div class="resume-wrap ftco-animate h-100">
           <span class="date">02 Jul 2024 - 30 Jan 2025</span>
           <h2>Data Analyst Intern</h2>
           <span class="position">UV Technocrats</span>
-          <p class="mt-4">
-          <ul>
+          <ul class="mt-3 pl-3">
             <li>💻 Worked on datasets to clean, analyze, and visualize insights using Excel, SQL, and Power BI.</li>
             <li>📊 Created interactive dashboards and assisted in building data-driven solutions for business problems.</li>
           </ul>
-          </p>
         </div>
       </div>
 
-      <div class="col-md-6">
-        <div class="resume-wrap ftco-animate">
+      <!-- Experience 2 -->
+      <div class="col-md-6 mb-4">
+        <div class="resume-wrap ftco-animate h-100">
           <span class="date">01 Mar 2023 - 31 Mar 2023</span>
           <h2>Web Developer</h2>
           <span class="position">Oasis Infobyte</span>
-          <p class="mt-4">
-          <ul>
-            <li>🌐 Developed &amp; optimized responsive fron-end web pages, ensuring smooth user experience.</li>
-            <li>⚙️ Implemented design &amp; UI enhancements, improving website aesthetics &amp; functionality.</li>
+          <ul class="mt-3 pl-3">
+            <li>🌐 Developed & optimized responsive front-end web pages, ensuring smooth user experience.</li>
+            <li>⚙️ Implemented design & UI enhancements, improving website aesthetics & functionality.</li>
           </ul>
-          </p>
         </div>
       </div>
     </div>
@@ -528,50 +498,44 @@
 <!-- Education Section -->
 <section class="ftco-section" id="education-section">
   <div class="container">
-    <div class="row justify-content-center mb-5 pb-5">
-      <div class="col-md-7 heading-section text-center ftco-animate">
+    <div class="row justify-content-center mb-5 pb-4">
+      <div class="col-md-10 text-center heading-section ftco-animate">
         <h1 class="big big-2">Education</h1>
         <h2 class="mb-4">Education</h2>
-        <div class="underline"></div>
+        <div class="underline mx-auto"></div>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-md-6">
-        <div class="resume-wrap ftco-animate">
+      <!-- Education 1 -->
+      <div class="col-md-6 mb-4">
+        <div class="resume-wrap ftco-animate h-100">
           <span class="date">2021-2024</span>
           <h2>Bachelor of Engineering in IT</h2>
           <span class="position">SKN SITS, Lonavala</span>
-          <p class="mt-4"><b>CGPA :  7.69</b></p>
+          <p class="mt-3"><b>CGPA: 7.69</b></p>
         </div>
       </div>
 
-      <div class="col-md-6">
-        <div class="resume-wrap ftco-animate">
+      <!-- Education 2 -->
+      <div class="col-md-6 mb-4">
+        <div class="resume-wrap ftco-animate h-100">
           <span class="date">2019-2020</span>
           <h2>Higher Secondary School</h2>
           <span class="position">Global Public School, Nashik</span>
-          <p class="mt-4"><b>Percentage :  61.08%</b>.</p>
+          <p class="mt-3"><b>Percentage: 61.08%</b></p>
         </div>
       </div>
     </div>
   </div>
 </section>
-
-
-
-
-
-
-
-
-
-	  <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+<!-- Counter Section -->
+<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
   <div class="container">
-    <div class="row d-md-flex align-items-center">
-      
+    <div class="row d-flex flex-wrap justify-content-center text-center">
+
       <!-- Completed Projects -->
-      <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+      <div class="col-sm-6 col-md-3 mb-4 counter-wrap ftco-animate">
         <div class="block-18">
           <div class="text">
             <strong class="number" data-number="5">0</strong>
@@ -581,7 +545,7 @@
       </div>
 
       <!-- Internships Done -->
-      <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+      <div class="col-sm-6 col-md-3 mb-4 counter-wrap ftco-animate">
         <div class="block-18">
           <div class="text">
             <strong class="number" data-number="2">0</strong>
@@ -590,9 +554,8 @@
         </div>
       </div>
 
-      <!-- Goals Crushed = Soon -->
-      <!-- Goals Crushed = Soon... -->
-      <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+      <!-- Goals Crushed -->
+      <div class="col-sm-6 col-md-3 mb-4 counter-wrap ftco-animate">
         <div class="block-18">
           <div class="text">
             <strong class="static-text">Soon... 🚀</strong>
@@ -601,8 +564,8 @@
         </div>
       </div>
 
-      <!-- Cups of Coffee = Only Tea! -->
-      <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+      <!-- Cups of Coffee -->
+      <div class="col-sm-6 col-md-3 mb-4 counter-wrap ftco-animate">
         <div class="block-18">
           <div class="text">
             <strong class="static-text">Only ☕ Tea!</strong>
@@ -610,190 +573,169 @@
           </div>
         </div>
       </div>
-      
+
     </div>
   </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg11.png)">
-			<!-- <div class="container"> -->
-				<div class="row justify-content-center">
-					<div class="col-md-7 ftco-animate text-center">
-						<h2>More projects on<span> Github  </span> </h2>
-						<div class="heading"> <h4> 👨‍💻 Want to check my projects? <br>
-							🧠 Curious to see my code? <br>
-							🚧 Or explore my latest builds? <br>
-							↘ Then head over to my GitHub 🚀!</h4>
-						<br>
-						<p><a href="https://github.com/ahire-prathamesh" class="btn btn-primary py-3 px-5">GitHub</a></p>
-						</div>
-					</div>
-				</div>
-			<!-- </div> -->
-		</div>
-	</section>
-
-
-
-
-	 <section class="ftco-section ftco-no-pb" id="resume-section">
-    	<div class="container">
-    		<div class="row justify-content-center pb-5">
-          <div class="col-md-10 heading-section text-center ftco-animate">
-          	<h1 class="big big-2">Resume</h1>
-            <h2 class="mb-4">Resume</h2>
-            <p>📄 Here's my journey so far — Projects, Experience & Education! <br>
-			🚀 Ready to explore? Let's see what I bring to the table!.</p>
+  <!-- GitHub CTA -->
+  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg11.png)">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-10 text-center ftco-animate">
+          <h2>More projects on <span> GitHub </span></h2>
+          <div class="heading">
+            <h4>
+              👨‍💻 Want to check my projects? <br>
+              🧠 Curious to see my code? <br>
+              🚧 Or explore my latest builds? <br>
+              ↘ Then head over to my GitHub 🚀!
+            </h4>
+            <br>
+            <p><a href="https://github.com/ahire-prathamesh" class="btn btn-primary py-3 px-5">GitHub</a></p>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-			<div class="row justify-content-center mt-5">
-    			<div class="col-md-6 text-center ftco-animate">
-    				<p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
-    			</div>
-    		</div>
-	</section>
+<!-- Resume Section -->
+<section class="ftco-section ftco-no-pb" id="resume-section">
+  <div class="container">
+    <div class="row justify-content-center pb-4">
+      <div class="col-md-10 text-center heading-section ftco-animate">
+        <h1 class="big big-2">Resume</h1>
+        <h2 class="mb-4">Resume</h2>
+        <p>📄 Here's my journey so far — Projects, Experience & Education!<br>🚀 Ready to explore? Let's see what I bring to the table!</p>
+      </div>
+    </div>
 
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-6 text-center ftco-animate">
+        <p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Contact Section -->
+<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+  <div class="container">
+    <div class="row justify-content-center mb-5 pb-3">
+      <div class="col-md-8 text-center heading-section ftco-animate">
+        <h1 class="big big-2">Contact</h1>
+        <h2 class="mb-4">Contact Me</h2>
+        <p>📬 Here are my contact details — feel free to reach out!</p>
+      </div>
+    </div>
 
-
-
-
-
-
-    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-      <div class="container">
-      	<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Contact</h1>
-            <h2 class="mb-4">Contact Me</h2>
-            <p>📬 Here are my contact details — feel free to reach out!</p>
+    <div class="row contact-info mb-4 text-center">
+      <div class="col-sm-6 col-md-3 mb-4 ftco-animate">
+        <div class="box p-4">
+          <div class="icon d-flex align-items-center justify-content-center mb-2">
+            <span class="icon-map-signs"></span>
           </div>
+          <h3 class="mb-2">Address</h3>
+          <p>Pune, India</p>
         </div>
+      </div>
 
-        <div class="row d-flex contact-info mb-5">
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-map-signs"></span>
-          		</div>
-          		<h3 class="mb-4">Address</h3>
-	            <p>Pune, India</p>
-	          </div>
+      <div class="col-sm-6 col-md-3 mb-4 ftco-animate">
+        <div class="box p-4">
+          <div class="icon d-flex align-items-center justify-content-center mb-2">
+            <span class="icon-phone2"></span>
           </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-phone2"></span>
-          		</div>
-          		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="tel://9579873490">+91 9579873490</a></p>
-	          </div>
+          <h3 class="mb-2">Contact Number</h3>
+          <p><a href="tel://9579873490">+91 9579873490</a></p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-3 mb-4 ftco-animate">
+        <div class="box p-4">
+          <div class="icon d-flex align-items-center justify-content-center mb-2">
+            <span class="icon-paper-plane"></span>
           </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-paper-plane"></span>
-          		</div>
-          		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:prathameshahire.official@gmail.com">prathameshahire.official@gmail.com</a></p>
-	          </div>
+          <h3 class="mb-2">Email Address</h3>
+          <p><a href="mailto:prathameshahire.official@gmail.com">prathameshahire.official@gmail.com</a></p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-3 mb-4 ftco-animate">
+        <div class="box p-4">
+          <div class="icon d-flex align-items-center justify-content-center mb-2">
+            <span class="icon-globe"></span>
           </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-globe"></span>
-          		</div>
-          		<h3 class="mb-4">Download Resume</h3>
-	            <p><a href="#">resumelink</a></p>
-	          </div>
-          </div>
+          <h3 class="mb-2">Download Resume</h3>
+          <p><a href="#">resumelink</a></p>
+        </div>
+      </div>
+    </div>
 
-		  <div class="container">
-			<br>
-			<br>
-			<div class="row justify-content-center">
-				
-			</div>
-				<br>
-					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
-					  <li class="ftco-animate normal-txt">Find me on  </li>
-					
-					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/prathamesh-ahire-39a94b202/"><span class="icon-linkedin"></span></a></li>  
-					 
-				      <li class="ftco-animate"><a href="https://www.instagram.com/_ahire_prathamesh_13/"><span class="icon-instagram"></span></a></li>
-					</ul>
-				<br>
-		   </div>
-   </div>
- </section>
+    <!-- Social Links -->
+    <div class="row justify-content-center">
+      <ul class="ftco-footer-social list-unstyled d-flex justify-content-center">
+        <li class="ftco-animate normal-txt mr-2">Find me on</li>
+        <li class="ftco-animate mx-2">
+          <a href="https://www.linkedin.com/in/prathamesh-ahire-39a94b202/"><span class="icon-linkedin"></span></a>
+        </li>
+        <li class="ftco-animate mx-2">
+          <a href="https://www.instagram.com/_ahire_prathamesh_13/"><span class="icon-instagram"></span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
 
+<!-- Footer -->
+<footer class="ftco-footer ftco-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p>
+          &copy; <script>document.write(new Date().getFullYear());</script>
+          <a href="https://colorlib.com" target="_blank">Colorlib</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Loader -->
+<div id="ftco-loader" class="show fullscreen">
+  <svg class="circular" width="48px" height="48px">
+    <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
+    <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/>
+  </svg>
+</div>
 
- 
-	
-    <footer class="ftco-footer ftco-section">
-		<div class="container">
-		  <div class="row">
-			<div class="col-md-12 text-center">
-  
-			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-	Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a href="https://colorlib.com" target="_blank">Colorlib</a>
-	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-			</div>
-		  </div>
-		</div>
-	  </footer>
+<!-- JS Files -->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="js/scrollax.min.js"></script>
+<script src="js/main.js"></script>
 
-
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  
-  <script src="js/main.js"></script>
-
-  <div class="right-anim"></div>
-
-  <script>
+<!-- Floating Dot Animation -->
+<div class="right-anim"></div>
+<script>
   const rightContainer = document.querySelector('.right-anim');
-  const rightDotCount  = 25;  // number of dots on right
+  const rightDotCount  = 25;  // number of dots
 
   for (let i = 0; i < rightDotCount; i++) {
     const dot = document.createElement('div');
     dot.className = 'dot';
-    dot.style.left            = Math.random() * 100 + '%';
-    dot.style.width           = dot.style.height = 4 + Math.random() * 8 + 'px';
-    dot.style.animationDelay  = Math.random() * 6 + 's';
+    dot.style.left = Math.random() * 100 + '%';
+    dot.style.width = dot.style.height = 4 + Math.random() * 8 + 'px';
+    dot.style.animationDelay = Math.random() * 6 + 's';
     dot.style.animationDuration = 4 + Math.random() * 4 + 's';
     rightContainer.appendChild(dot);
   }
 </script>
-
-
-    
   </body>
 </html>
